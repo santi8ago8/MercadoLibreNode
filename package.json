@@ -3,7 +3,7 @@
     "version" : "0.0.1",
     "author" : "Santiago Nahuel Cordoba <santi8ago8@gmail.com>",
     "description" : "Mercadolibre SDK module for integration",
-    "main": "./mercadolibre.js",
+    "main": "./index.js",
     "repository": {
       "type": "git",
       "url": "https://github.com/santi8ago8/MercadoLibreNode.git"
