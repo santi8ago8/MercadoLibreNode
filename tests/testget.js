@@ -16,6 +16,9 @@ function printOptions() {
 
     }
 }
+
+
+
 printOptions();
 var stdin = process.openStdin();
 stdin.addListener("data", function (d) {
