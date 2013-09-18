@@ -1,25 +1,21 @@
 {
-    "name" : "mercadolibre",
-    "version" : "0.0.3",
-    "author" : "Santiago Nahuel Cordoba <santi8ago8@gmail.com>",
-    "description" : "Mercadolibre SDK module for integration",
-    "main": "./index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/santi8ago8/MercadoLibreNode.git"
-    },
-    "keywords": [
-        "api"
-      , "mercadolibre"
-      , "meli"
-      , "sdk"
-      , "integration"
-    ],
-    "dependencies" : {
-        "needle": ">=0.5.9"
-    },
-    "engine" : {
-        "node" : ">=0.6"
-    },
-    "license" : "BSD"
+  "name": "mercadolibre",
+  "version": "0.0.4",
+  "author": "Santiago Nahuel Cordoba <santi8ago8@gmail.com>",
+  "description": "Mercadolibre SDK module for integration",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santi8ago8/MercadoLibreNode.git"
+  },
+  "keywords": [
+    "api", "mercadolibre", "meli", "sdk", "integration"
+  ],
+  "dependencies": {
+    "needle": ">=0.5.9"
+  },
+  "engine": {
+    "node": ">=0.6"
+  },
+  "license": "BSD"
 }
