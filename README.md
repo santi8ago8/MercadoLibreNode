@@ -92,7 +92,7 @@ var exampleCallback = function(error, response){ }
 The object passed in the params parameter in functions get, post, put and delete. Is automatically converted to a query string  
 Example:
 ```
-meliObject.get('/users/',{ids:[77169310,1231233]}, function (a,b) {})
+meliObject.get('/users/', {ids: [77169310, 1231233]}, function(a,b) { })
 ```
 The request is get ​​to the following address:
 ```
