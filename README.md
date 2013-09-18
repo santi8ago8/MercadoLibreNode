@@ -84,7 +84,7 @@ path|string|yes|API resource path to which the GET request will be sent to.|
 params|object|optional|Additional params (if required).|
 callback|function|yes|Callback function is executed when the task is completed|
 
-
+#### Details necessary
 The callback function, in all cases receives the parameters:
 ```
 var exampleCallback = function(error, response){ }
