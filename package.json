@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Santiago Nahuel Cordoba <santi8ago8@gmail.com>",
   "description": "Mercadolibre SDK module for integration",
   "main": "./index.js",
@@ -9,13 +9,17 @@
     "url": "https://github.com/santi8ago8/MercadoLibreNode.git"
   },
   "keywords": [
-    "api", "mercadolibre", "meli", "sdk", "integration"
+    "api",
+    "mercadolibre",
+    "meli",
+    "sdk",
+    "integration"
   ],
   "dependencies": {
-    "needle": ">=0.5.9"
+    "needle": "^0.11.0"
   },
   "engine": {
     "node": ">=0.6"
   },
-  "license": "BSD"
+  "license": "MIT"
 }
