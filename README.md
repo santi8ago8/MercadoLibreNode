@@ -10,7 +10,7 @@ MercadoLibreNode SDK for Node.js
 ```
 var meli = require('mercadolibre');
 ```
-####Constructor:
+#### Constructor:
 ```
 var meliObject = new meli.Meli(client_id, client_secret, [access_token], [refresh_token]);
 ```
