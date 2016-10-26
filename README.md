@@ -129,7 +129,17 @@ meliObject.post(path, body, [params,] callback)
 ```
 |Field|Type|Required|Description|
 |-----|----|--------|-----------|
-path|string|yes|API resource path to which the GET request will be sent to.|
+path|string|yes|API resource path to which the POST request will be sent to.|
+body|object|yes|Body to be sent when executing the POST request.
+params|object|optional|Additional params (if required).|
+callback|function|yes|Callback function is executed when the task is completed|
+#### upload (post with multipart)
+```
+meliObject.upload(path, body, [params,] callback) 
+```
+|Field|Type|Required|Description|
+|-----|----|--------|-----------|
+path|string|yes|API resource path to which the POST request will be sent to.|
 body|object|yes|Body to be sent when executing the POST request.
 params|object|optional|Additional params (if required).|
 callback|function|yes|Callback function is executed when the task is completed|
@@ -139,8 +149,8 @@ meliObject.put(path, body, [params,] callback)
 ```
 |Field|Type|Required|Description|
 |-----|----|--------|-----------|
-path|string|yes|API resource path to which the GET request will be sent to.|
-body|object|yes|Body to be sent when executing the POST request.
+path|string|yes|API resource path to which the PUT request will be sent to.|
+body|object|yes|Body to be sent when executing the PUT request.
 params|object|optional|Additional params (if required).|
 callback|function|yes|Callback function is executed when the task is completed|
 #### delete
@@ -149,7 +159,7 @@ meliObject.delete(path, [params,] callback)
 ```
 |Field|Type|Required|Description|
 |-----|----|--------|-----------|
-path|string|yes|API resource path to which the GET request will be sent to.|
+path|string|yes|API resource path to which the DELETE request will be sent to.|
 params|object|optional|Additional params (if required).|
 callback|function|yes|Callback function is executed when the task is completed|
 
