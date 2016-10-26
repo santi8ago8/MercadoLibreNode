@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "author": "Santiago Nahuel Cordoba <santi8ago8@gmail.com>",
   "description": "Mercadolibre SDK module for integration",
   "main": "./index.js",
