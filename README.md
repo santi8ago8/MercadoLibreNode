@@ -4,11 +4,11 @@ MercadoLibreNode
 MercadoLibreNode SDK for Node.js
 
 ### Install  
-`npm install mercadolibre`
+`npm install mercadolibre-new`
 ### Use
 #### require:
 ```
-var meli = require('mercadolibre');
+var meli = require('mercadolibre-new');
 ```
 #### Constructor:
 ```
